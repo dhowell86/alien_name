@@ -1,0 +1,19 @@
+body {
+  max-height: 100%;
+  background-color: lightgray;
+}
+
+.centerbox {
+  margin: auto;
+  margin-top: auto;
+  width: 50%;
+  text-align: center;
+  border: 3px solid black;
+  padding: 10px;
+}
+.clickhere {
+  margin: auto;
+  background-color: black;
+  color: white;
+  width: 50%;
+}

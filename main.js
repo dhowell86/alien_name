@@ -7,8 +7,10 @@ const randomSelector = array => {
     return array[i];
 }
 
-let firstPart = randomSelector(firstSyllables);
-let secondPart = randomSelector(secondSyllables);
-let thirdPart = randomSelector(thirdSyllables);
-
-console.log(`Your alien name is: ${firstPart}${secondPart}${thirdPart}`);
+function getAlienName() {
+  let firstPart = randomSelector(firstSyllables);
+  let secondPart = randomSelector(secondSyllables);
+  let thirdPart = randomSelector(thirdSyllables);
+  let alienName = firstPart + secondPart + thirdPart;
+  document.getElementById("alienName").innerHTML = alienName;
+}

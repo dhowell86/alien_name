@@ -1,8 +1,28 @@
 body {
-  max-height: 100%;
+  /* max-height: 100%; */
+  position: relative;
   background-color: lightgray;
+  background-image: url("images/starstrees.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
 }
 
+h1 {
+  font-size: 60px;
+}
+
+button {
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #F1FF00;
+}
+button:hover {
+  background-color: #00FF1D;
+}
+/*
 .centerbox {
   margin: auto;
   margin-top: auto;
@@ -10,10 +30,33 @@ body {
   text-align: center;
   border: 3px solid black;
   padding: 10px;
-}
+} */
 .clickhere {
   margin: auto;
   background-color: black;
   color: white;
   width: 50%;
+}
+
+.container {
+  height: 98vh;
+  position: relative;
+  /* border: 3px solid green; */
+  text-align: center;
+  color: #00FF1D;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#alienName {
+  font-size: 40px;
+  background-color: black;
+  padding: 10px;
 }
